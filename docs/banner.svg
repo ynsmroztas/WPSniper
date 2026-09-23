@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" role="img" aria-label="WPSniper banner">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061014"/>
+      <stop offset="1" stop-color="#0b1a16"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="420" fill="url(#g)"/>
+  <rect x="0" y="0" width="8" height="420" fill="#34d399"/>
+  <text x="48" y="64" fill="#34d399" font-family="IBM Plex Mono,monospace" font-size="16">MITSEC · DETECT ONLY · AUTHORIZED LAB</text>
+  <text x="48" y="168" fill="#ecfdf5" font-family="Syne,Sora,sans-serif" font-size="92" font-weight="800">WP</text>
+  <text x="248" y="168" fill="#34d399" font-family="Syne,Sora,sans-serif" font-size="92" font-weight="800">SNIPER</text>
+  <text x="48" y="220" fill="#a7f3d0" font-family="IBM Plex Mono,monospace" font-size="22">CVE-2026-87902  ·  get_page_template() LFI class</text>
+  <text x="48" y="268" fill="#6b7280" font-family="IBM Plex Mono,monospace" font-size="16">fingerprint → page_id → PEAR include confirm → verdict</text>
+  <text x="48" y="308" fill="#6b7280" font-family="IBM Plex Mono,monospace" font-size="16">no webshell  ·  no pearcmd write  ·  no OS exec</text>
+  <text x="48" y="372" fill="#9ca3af" font-family="IBM Plex Mono,monospace" font-size="15">mitsec  ·  x.com/ynsmroztas  ·  ynsmroztas.github.io</text>
+</svg>

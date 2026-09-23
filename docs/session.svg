@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 540" role="img" aria-label="Redacted WPSniper lab session">
+  <rect width="920" height="540" fill="#07090c" rx="16"/>
+  <rect x="20" y="16" width="880" height="52" rx="8" fill="#0a1210" stroke="#34d399" stroke-width="1.2"/>
+  <text x="36" y="38" fill="#34d399" font-family="IBM Plex Mono,monospace" font-size="14">WPSniper v1.3</text>
+  <text x="168" y="38" fill="#a7f3d0" font-family="IBM Plex Mono,monospace" font-size="13">CVE-2026-87902 · get_page_template LFI</text>
+  <text x="36" y="56" fill="#6b7280" font-family="IBM Plex Mono,monospace" font-size="11">detect-only · authorized lab</text>
+  <text x="36" y="96" fill="#34d399" font-family="IBM Plex Mono,monospace" font-size="12">[radar] target  https://lab.wordpress.local</text>
+  <text x="36" y="118" fill="#9ca3af" font-family="IBM Plex Mono,monospace" font-size="12">[radar] generator=6.8.3  theme=twentytwelve  status=affected</text>
+  <text x="36" y="140" fill="#9ca3af" font-family="IBM Plex Mono,monospace" font-size="12">[radar] page_id=2 from REST /wp-json/wp/v2/pages</text>
+  <text x="36" y="162" fill="#fbbf24" font-family="IBM Plex Mono,monospace" font-size="12">[radar] theme dir /wp-content/themes/twentytwelve/page-templates/ → 403</text>
+  <rect x="24" y="186" width="872" height="36" rx="6" fill="#1a0a10" stroke="#fb7185"/>
+  <text x="36" y="209" fill="#fb7185" font-family="IBM Plex Mono,monospace" font-size="12">VULN  lab.wordpress.local  unique=['PEAR Version:','Usage: pear'] Δlen=+18420</text>
+  <text x="36" y="250" fill="#9ca3af" font-family="IBM Plex Mono,monospace" font-size="12">baseline  ?page_id=2           sha=a1c9…  no PEAR banner</text>
+  <text x="36" y="272" fill="#9ca3af" font-family="IBM Plex Mono,monospace" font-size="12">probe     pagename=double-enc  sha=7e02…  PEAR CLI unique to probe</text>
+  <text x="36" y="294" fill="#fbbf24" font-family="IBM Plex Mono,monospace" font-size="12">FP rule   'pearcmd' already in marketing HTML → ignored</text>
+  <text x="36" y="316" fill="#9ca3af" font-family="IBM Plex Mono,monospace" font-size="12">passwd    locate_template appends .php · raw /etc/passwd is not this class</text>
+  <text x="36" y="356" fill="#34d399" font-family="IBM Plex Mono,monospace" font-size="12">patched   7.1.2 · 7.0.6 · 6.8.10 · backports to 4.7.37</text>
+  <text x="36" y="378" fill="#6b7280" font-family="IBM Plex Mono,monospace" font-size="12">no webshell · no config-create · no OS exec on this still</text>
+  <text x="36" y="416" fill="#e879f9" font-family="IBM Plex Mono,monospace" font-size="12">lab host · probe URL query painted as [REDACTED]</text>
+  <text x="36" y="448" fill="#6b7280" font-family="IBM Plex Mono,monospace" font-size="12">classifier tape · not a write gadget</text>
+  <text x="36" y="508" fill="#34d399" font-family="IBM Plex Mono,monospace" font-size="13">mitsec@wordpress:</text>
+</svg>

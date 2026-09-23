@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" role="img" aria-label="WPSniper detect flow">
+  <rect width="860" height="300" fill="#0b0d10" rx="18"/>
+  <rect x="24" y="28" width="190" height="78" rx="12" fill="#111827" stroke="#34d399"/>
+  <text x="40" y="58" fill="#34d399" font-family="IBM Plex Mono,monospace" font-size="13">1 FINGERPRINT</text>
+  <text x="40" y="82" fill="#9ca3af" font-family="Sora,sans-serif" font-size="13">generator · theme · wp</text>
+  <rect x="232" y="28" width="190" height="78" rx="12" fill="#111827" stroke="#60a5fa"/>
+  <text x="248" y="58" fill="#60a5fa" font-family="IBM Plex Mono,monospace" font-size="13">2 PAGE_ID</text>
+  <text x="248" y="82" fill="#9ca3af" font-family="Sora,sans-serif" font-size="13">REST pages or html</text>
+  <rect x="440" y="28" width="190" height="78" rx="12" fill="#111827" stroke="#fbbf24"/>
+  <text x="456" y="58" fill="#fbbf24" font-family="IBM Plex Mono,monospace" font-size="13">3 THEME DIR</text>
+  <text x="456" y="82" fill="#9ca3af" font-family="Sora,sans-serif" font-size="13">page-templates exists?</text>
+  <rect x="648" y="28" width="188" height="78" rx="12" fill="#111827" stroke="#fb7185"/>
+  <text x="664" y="58" fill="#fb7185" font-family="IBM Plex Mono,monospace" font-size="13">4 INCLUDE</text>
+  <text x="664" y="82" fill="#9ca3af" font-family="Sora,sans-serif" font-size="13">PEAR vs baseline</text>
+  <text x="24" y="148" fill="#fbbf24" font-family="IBM Plex Mono,monospace" font-size="12">VULN</text>
+  <text x="80" y="148" fill="#9ca3af" font-family="Sora,sans-serif" font-size="14">unique strong PEAR banner, body ≠ baseline</text>
+  <text x="24" y="182" fill="#60a5fa" font-family="IBM Plex Mono,monospace" font-size="12">INFO</text>
+  <text x="80" y="182" fill="#9ca3af" font-family="Sora,sans-serif" font-size="14">affected version + theme dir, include not closed</text>
+  <text x="24" y="216" fill="#34d399" font-family="IBM Plex Mono,monospace" font-size="12">SAFE</text>
+  <text x="80" y="216" fill="#9ca3af" font-family="Sora,sans-serif" font-size="14">patched branch, or include identical to baseline</text>
+  <text x="24" y="250" fill="#fb7185" font-family="IBM Plex Mono,monospace" font-size="12">FP</text>
+  <text x="80" y="250" fill="#9ca3af" font-family="Sora,sans-serif" font-size="14">weak token pearcmd already on the marketing page</text>
+  <text x="24" y="280" fill="#6b7280" font-family="IBM Plex Mono,monospace" font-size="12">detect only · locate_template includes *.php · no write path in this repo</text>
+</svg>
